@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <fieldset>
+        <form action="#">
+            <!-- name, action, target, method -(Attributes of form) -->
+
+            <label for="name">UserName:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+            <br> <br>
+
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" id="Password" placeholder="Enter your password">
+
+            <br> <br>
+
+            <label for="Email"> Email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email">
+
+            <br> <br>
+
+            <label for="gender"> Gender: </label>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender"> Male </label>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender"> Female </label>
+
+            <br> <br>
+
+            <label for="hobb"> Hobbies: </label>
+            <input type="checkbox" name="hobb1" id="hobb1">
+            <label for="hobb1"> Cricket </label>
+            <input type="checkbox" name="hobb2" id="hobb2">
+            <label for="hobb2"> Football </label>
+
+            <br> <br>
+
+            <label for="dob"> DOB </label>
+            <input type="date" name="dob" id="dob">
+
+            <br> <br>
+
+            <label for="lang"> Select Programming Language </label>
+            <select name="lang" id="lang">
+
+                <option value="Select lang"> Select lang </option>
+                <option value="C"> C </option>
+                <option value="C++"> C++ </option>
+                <option value="Python"> Python </option>
+                <option value="Java"> Java </option>
+
+            </select>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
